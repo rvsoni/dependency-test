@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:2c131d10-8f99-4783-b02f-5a9076a69cd6" version="1">
+    <metadata>
+        <timestamp>2020-11-13T21:42:26Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>CycloneDX Maven plugin</name>
+                <version>2.1.0</version>
+                <hashes>
+                    <hash alg="MD5">8e88d16f19492a5c3f600a264031532b</hash>
+                    <hash alg="SHA-1">8d9239362e174332caf023a37c74b968bce3214f</hash>
+                    <hash alg="SHA-256">403a7a0c008d2d9d3c76775c4c3c538cf79fc476d164885e70f1d0ce6c89d7df</hash>
+                    <hash alg="SHA-384">d50a1c04a495bf088585e2364b7f9052e4c981b5e0eb6fed6a036c57d8e8042ebaffb4d0c1c53f022cfb3394049c52c7</hash>
+                    <hash alg="SHA-512">0c5b9f044f481b72872f859837f564cb09807d5f791b6c99980ff0e3737ff0185c92056980d7a1e7939b9b585976e4eb7d995f86ab46dce505e498a1816e1b0b</hash>
+                </hashes>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.owasp-test/dependency-test@0.0.1-SNAPSHOT" type="library">
+            <group>com.owasp-test</group>
+            <name>dependency-test</name>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.owasp-test/dependency-test@0.0.1-SNAPSHOT</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.springframework/spring-core@5.1.0.RELEASE?type=jar" type="library">
+            <publisher>Spring IO</publisher>
+            <group>org.springframework</group>
+            <name>spring-core</name>
+            <version>5.1.0.RELEASE</version>
+            <description><![CDATA[Spring Core]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">0730cf71aabebb67aee61a3b14de3b9c</hash>
+                <hash alg="SHA-1">7835804188894b86a39b5a6028d50381638170c6</hash>
+                <hash alg="SHA-256">f8434dc1de7a080f99d0ddb08ffc93790aa9cedc6dd6c3d36e7fe1ebfdbaf854</hash>
+                <hash alg="SHA-384">4b23439cf16417d8fffed9597dc7fb958ce8448dbe9d499c6c18d6659ad73391c55050971d9eb3127c75f99b15b0b8e8</hash>
+                <hash alg="SHA-512">6dd616d16a8ab3d8dc6e19754ff06cdd3e3e00904183a674710bde5f091bebc0841c9d75ecb90cedfaf39fe54bf68d57f841654d2fa2e770be0f8cae0cd29561</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-core@5.1.0.RELEASE?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://projects.spring.io/spring-framework</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://jira.springsource.org/browse/SPR</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://github.com/spring-projects/spring-framework</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-jcl@5.1.0.RELEASE?type=jar" type="library">
+            <publisher>Spring IO</publisher>
+            <group>org.springframework</group>
+            <name>spring-jcl</name>
+            <version>5.1.0.RELEASE</version>
+            <description><![CDATA[Spring Commons Logging Bridge]]></description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">67dcb31d80b9f93bca3a48f3daaafac8</hash>
+                <hash alg="SHA-1">20ee05d41b5bebcab471226517f83447ad3d163c</hash>
+                <hash alg="SHA-256">81847d680f00382c92f794c932532dbad6d908d02a64dd7ebb4dadcc1c48e4a6</hash>
+                <hash alg="SHA-384">8c48d1eefabc22f885b546378195b887616ea69c8d0aa04c3b1664b2c79ce1b861c73fd215c5f28730dd670daa47e91e</hash>
+                <hash alg="SHA-512">57252b992bf9dc52c0c73893f97ff54f7dd3b056a978bae20ed23aaf6c97e40b6e7b915d954aa98426059b77147f269b3d09e76014e3c056b28bf178e87c39e3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-jcl@5.1.0.RELEASE?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://projects.spring.io/spring-framework</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://jira.springsource.org/browse/SPR</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://github.com/spring-projects/spring-framework</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.postgresql/postgresql@42.2.1?type=jar" type="library">
+            <publisher>PostgreSQL Global Development Group</publisher>
+            <group>org.postgresql</group>
+            <name>postgresql</name>
+            <version>42.2.1</version>
+            <description><![CDATA[Java JDBC 4.2 (JRE 8+) driver for PostgreSQL database]]></description>
+            <scope>optional</scope>
+            <hashes>
+                <hash alg="MD5">cb4974fcafb4fe9845d431f37e0f11ed</hash>
+                <hash alg="SHA-1">b7f61848ac43ae9fa6e38935bfd75628b7fc9086</hash>
+                <hash alg="SHA-256">d800ad754c7265b3bc06425d3ea0059a2a3226527226cecfd459f74b0be7d6ed</hash>
+                <hash alg="SHA-384">5fd61ed62bcfbb0693f4fb07c8c4e94b66647b7534d933deec8dec3c8c2cbcc73e62ac3c4f4653e70a3183fd40094fba</hash>
+                <hash alg="SHA-512">6786b315c30675653f13ff0fea02cdc059816db064aa9137894d34a03e2345382d91616ab167f0dfc64766a3cda52484f104ef1da1d343a7e235252a477bf55d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-2-Clause</id>
+                    <url>https://opensource.org/licenses/BSD-2-Clause</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.postgresql/postgresql@42.2.1?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://jdbc.postgresql.org/</url>
+                </reference>
+                <reference type="distribution">
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://github.com/pgjdbc/pgjdbc-parent-poms</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.springframework/spring-core@5.1.0.RELEASE?type=jar">
+            <dependency ref="pkg:maven/org.springframework/spring-jcl@5.1.0.RELEASE?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.springframework/spring-jcl@5.1.0.RELEASE?type=jar"/>
+        <dependency ref="pkg:maven/org.postgresql/postgresql@42.2.1?type=jar"/>
+    </dependencies>
+</bom>
